@@ -181,6 +181,12 @@ p a {
 .primary-footer a:hover{
   color: #648880;
 }
+.teaser img{
+  border-radius:5px;
+  display:block;
+  margin-bottom: 22px;
+  max-width: 100%;
+}
 /*
   ========================================
   Clearfix
@@ -217,11 +223,11 @@ h1, h3, h4, h5, p {
 
 .btn {
   border-radius: 5px;
-  color #fff;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
-  letter-spacing: ,5px;
+  letter-spacing: .5px;
   margin: 0;
   text-transform: uppercase;
 }
